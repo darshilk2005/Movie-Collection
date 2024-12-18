@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div class="">
+        
+    <h1>Movie List</h1>
+    <h2>Add a New Movie</h2>
+
+    <form id="addMovieForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="genre" placeholder="Genre" required>
+        <input type="number" id="rating" placeholder="Rating" step="0.1" required>
+        <input type="number" id="releaseYear" placeholder="Release Year"  required>
+        <button type="submit">Add Movie</button>
+    </form>
+
+    <h2>Filter by Genre</h2>
+    <input type="text" id="genreFilter" placeholder="Enter genre to filter">
+    <button id="filterButton">Filter</button>
+ 
+    <h2>Highest Rating</h2>
+    <button id="high">Highest Ranting</button>
+
+    <h2>Movie List</h2>
+    <ul id="list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
